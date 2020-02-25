@@ -24,6 +24,13 @@
     </parent>
 
     <dependencies>
+
+        <!-- add 1 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -96,4 +103,3 @@
 
         </plugins>
     </build>
-</project>
